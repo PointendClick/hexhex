@@ -1,0 +1,5 @@
+#        Prime 2 3 5 7 11 13 17 19 23 
+#      3-Prime 2 3 4 5 6 7 9 10 11 13 14 15 17 18 19 21 22 
+#  16^16-Prime
+# = 18446744073709551616 - To find candidates for *16^16-prime*, start from **18446744073709551617** and check sums of 16 integers.
+# Exploration - The potential for large values means computational checks are necessary to identify candidates.
