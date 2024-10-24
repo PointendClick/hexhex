@@ -1,5 +1,7 @@
-#       Prime 2 3   5   7      11 13       17 19       23       29 31          37       41 43    47       53             59 61       67    71 73       79       83          89             97
-#     3-Prime 2 3 4 5 6 7 9 10 11 13 14 15 17 19 21 22 23 25 26 29 31 33 34 35 37 38 39 41 43 46 47 49 51 53 54 55 57 58 59 61 62 65 67 69 71 73 74 77 79 81 82 83 85 86 87 89 91 93 94 95 97
+#       Prime 2 3   5   7        11    13       17    19          23             29         
+#     3-Prime 2 3 4 5 6 7   9 10 11    13 14 15 17    19    21 22 23 25 26       29   
+#     4-Prime 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20 21 22 23 25 26 27 28 29 30
+#     5-Prime 32 48 64 72 80 96 
 # 16^16-Prime 18446744073709551616 
 # To find candidates for *16^16-prime*, start from **18446744073709551617** and check sums of 16 integers.
 # Exploration - The potential for large values means computational checks are necessary to identify candidates.
