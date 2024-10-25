@@ -1,4 +1,31 @@
 # hexhex
-hexhex<br>
-16^16 characters Information goes west.<br> As this is being written.<br> As you are reading this.<br> You are going west.<br> How to read?<br> Read.<br> That word was pronounced 'red'.<br> A hex^hex language will compress this experience beyond a single dimensional direction.<br> English reads left right downleft.<br> Arabic reads right left downright.<br> Japapnese reads down up leftdown.<br> Each language averages four hundred characters per page.<br> Machine and Morse code<br>
 
+🌍 The 16^16 Language is a powerful tool for various applications, including:
+
+AI dev: Compact data communication: Ideal for networked devices and IoT communications, where data efficiency is key.
+Encryption and cryptography: Leverage the extensive character set to create robust, hard-to-crack codes.
+Machine-to-machine communication: Speed up data exchange between devices in resource-constrained environments.
+
+📈 Roadmap
+Version 1.0 - Initial Release
+Character set definition
+Encoding/decoding functions
+
+Version 2.0 - Enhanced Tools
+Additional utilities for developers
+Expanded documentation
+Future Plans
+Community-driven improvements
+Application-specific encoding modes
+Integration with other encoding standards
+
+🤝 Contributing
+We welcome contributions! Here’s how you can help: https://github.com/sponsors/PointendClick
+
+Submit issues: Spot a problem or have a feature request? Open an issue!
+Fork and create a pull request: Have an improvement? Fork the project, make your changes, and submit a pull request.
+Join discussions: Head to our Discussions page to chat with other contributors!
+For detailed contribution guidelines, see CONTRIBUTING.md.
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
