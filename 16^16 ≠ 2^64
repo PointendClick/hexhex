@@ -1,0 +1,30 @@
+# 16^16 ≠ 2^64
+# Math no longer explains itself
+# here we will ... M is an arbitray variable. M is a matrix.
+# M[16]
+import numpy as np
+
+# Calculate 16^16 and 2^64
+value_16_16 = 16 ** 16
+value_2_64 = 2 ** 64
+
+# Print the values to show they are equal
+print(f"16^16 = {value_16_16}")
+print(f"2^64 = {value_2_64}")
+print("Are they equal? ", value_16_16 == value_2_64)
+
+# Matrix shape representations
+# For 16^16, represent it in a 16x16 grid (hypothetically, as this is just for visualization)
+matrix_16x16 = np.full((16, 16), 1)  # A 16x16 matrix filled with '1's for demonstration
+
+# For 2^64, represent it in a 2x64 grid (hypothetically)
+matrix_2x64 = np.full((2, 64), 1)  # A 2x64 matrix filled with '1's for demonstration
+
+# Show the shapes of the matrices
+print("\nMatrix shape representing 16^16:")
+print(matrix_16x16.shape)
+print(matrix_16x16)
+
+print("\nMatrix shape representing 2^64:")
+print(matrix_2x64.shape)
+print(matrix_2x64)
