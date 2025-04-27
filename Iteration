@@ -1,0 +1,39 @@
+#Seven Layers of iteration
+18446744073709551616^0=1
+4
+16
+256
+65536
+4294967296
+18446744073709551616
+
+sequence = [1, 4, 16, 256]
+ratios = []
+
+for i in range(len(sequence) - 1):
+    ratio = sequence[i+1] / sequence[i]
+    ratios.append(ratio)
+
+print("Sequence:")
+for num in sequence:
+    print(num)
+
+print("\nRatios between consecutive elements:")
+for i, ratio in enumerate(ratios):
+    print(f"{sequence[i+1]} / {sequence[i]} = {int(ratio)}")
+
+print("\nGenerating 3 more iterations to have a total of 7:")
+for _ in range(3):
+    next_val = sequence[-1] ** 2
+    sequence.append(next_val)
+    ratios.append(next_val / sequence[-2])
+    print(f"Next iteration: {sequence[-1]}")
+    print(f"{sequence[-1]} / {sequence[-2]} = {int(ratios[-1])}")
+
+print("\nAdding the other sequences at the end:")
+print(4)
+print(16)
+print(256)
+print(65536)
+print(4294967296)
+print(18446744073709551616)
